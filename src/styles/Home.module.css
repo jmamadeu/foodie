@@ -1,0 +1,114 @@
+.homeContainer {
+  width: 100vw;
+  max-width: 100%;
+
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fff;
+}
+
+.header img {
+  margin: 5px 0 5px 30px;
+  height: 80px;
+}
+
+.header ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.header ul li + li {
+  margin-left: 50px;
+}
+
+.header ul :last-child {
+  margin-right: 20px;
+}
+
+.header ul li .active {
+  color: #fa4a0c;
+}
+
+.links {
+  font-size: 1rem;
+  color: #252b42;
+  font-weight: 600;
+}
+
+.banner {
+  background: center url('/banner1.svg') no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.banner h5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+
+  margin-top: -80px;
+}
+
+.banner h1 {
+  font-weight: 700;
+  font-size: 3.375rem;
+
+  text-align: center;
+
+  margin-top: -20px;
+}
+
+.banner p {
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  margin-top: -10px;
+}
+
+.buttons button {
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  background: #fa4a0c;
+  color: #fff;
+  border: none;
+
+  padding: 1rem;
+
+  cursor: pointer;
+}
+
+.buttons button + button {
+  margin-left: 20px;
+  background: transparent;
+
+  border: 1px solid #fff;
+}
+
+.phones img {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -280px;
+}
