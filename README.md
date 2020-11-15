@@ -1,30 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="./public/logo.svg" />
+</h1>
 
-## Getting Started
+Aplicativo para encomenda e venda de comidas, desfrute do maior e do melhor serviço de comida do país, o Amalex Food!
 
-First, run the development server:
+<h4 align="center">
+	🚧  Under development🚀...  🚧
+</h4>
+
+## :card_index: Layout
+
+<div>
+<img src="./.github/image.png" width="1044" height="600" />
+</div>
+
+## :construction_worker: Installation
+
+You will need to install
+
+- [Node.js](https://nodejs.org)
+- [Expo](https://expo.io/)
+- [Yarn](https://yarnpkg.com/)
+
+## Running the Project
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/jmamadeu/foodie.git # Clone this repository to your machine
+$ cd foodie # Enter to the project folder
+$ yarn # Install all dependencies
+$ yarn dev # Running the project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+:tada: Congratulations, the project is running. <br />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :bulb: Contributing
 
-## Learn More
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-To learn more about Next.js, take a look at the following resources:
+Please make sure to update tests as appropriate.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :bookmark: License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
