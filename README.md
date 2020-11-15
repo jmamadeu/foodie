@@ -19,7 +19,6 @@ Aplicativo para encomenda e venda de comidas, desfrute do maior e do melhor serv
 You will need to install
 
 - [Node.js](https://nodejs.org)
-- [Expo](https://expo.io/)
 - [Yarn](https://yarnpkg.com/)
 
 ## Running the Project
